@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>Lets Calc.</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <script src="calcScript.js"></script>
+        
+    </head>
+
+    <body>
+        <h1>We can Count!</h1>
+        <h3>Lets put some numbers</h3>
+        <input id="num1" type="text">
+        <input id="num2" type="text">
+        <br \><br \>
+        <button id="plus" onclick="functambah()">+</button>
+        <button id="min" onclick="funckurang()">-</button>
+        <button id="kali" onclick="funckali()">*</button>
+        <button id="bagi" onclick="funcbagi()">/</button>
+        <br \><br \>
+        <h2 id="result_response"></h2>
+        <button id="result_reinput1" onclick="resinput1()" style="display: none;">Set the 1st column as result</button>
+        <button id="result_reinput2"onclick="resinput2()" style="display: none;">Set the 2nd column as result</button>
+        <br \><br \>
+        <button id="clear" onclick="klirr()" style="display: none;">Clear</button>
+
+    </body>
+</html>
